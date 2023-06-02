@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -108,9 +109,62 @@ using namespace std;
 *}
 */
 
+// you can also use printf in C++ By the way don't remember what lib to include
+
 // Working With Numbers
-/*TODO 49:02*/
-int main()
-{
+
+//int main5()
+//{
+
+    //int wnum = 5;
+    //double dnum = 5.5;
+    //wnum++;  //work the same in C By the 
+    /*+= or you can do -= or you can do *= or /= work the same in C By The Way*/
+    //wnum += 80;
+    //cout << wnum << endl;
+    //cout << -40 << endl;
+    //cout << 40 << endl;
+    //cout << -40.0982 << endl;
+    //cout << (4 + 5) * 10 << endl; 
+    //cout << 5.5 + 9 << endl;
+    //cout << 10/3 << endl;
+    //cout << pow(3, 3) << endl;
+    //cout << sqrt(36) << endl;
+    //cout << round(4.6) << endl;
+    //cout << ceil(4.6) << endl;
+    //cout << floor(4.6) << endl;
+    //cout << fmax(3, 10) << endl;
+    //cout << fmin(10, 41) << endl;
+    /*jut google math function i can't name all of them it will be too much typing and one is pi 3.14*/
+    /* the math you cn do is 
+      + adding
+      - subtracting
+      * mutiple
+      / devid
+      % remainder
+      much more
+      like PEMDAS
+      also all this math is the same in C just type #include <math>
+      */
+
+    //return 0;
+//}
+
+// Getting User Input 
+
+/*int main () {
+    // i love cout and cin make it so easy to get user input compare to printf
+    string name; // or double will work or char or string will work
+    cout << "Enter your name: ";
+    getline(cin, name);
+    //cin >> age;
+    cout << "Hello " << name << endl;
+
+    //cout << " you are " << age << " years old. " << endl;
+    return 0;
+}*/
+
+// Arrays
+int main() {
     return 0;
 }

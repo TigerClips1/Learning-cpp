@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/tigerclips1/Documents/Learning-C++",
-      "program": "/home/tigerclips1/Documents/Learning-C++/build/Debug/outDebug",
+      "cwd": "/home/tigerclips/Learning-cpp",
+      "program": "/home/tigerclips/Learning-cpp/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
