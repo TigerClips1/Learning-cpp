@@ -11,7 +11,7 @@ using namespace std;
 }
 */
 
-//Drawing shape using print satement
+//Drawing shape using print statement
 
 /*int main2 () 
 {
@@ -51,7 +51,7 @@ using namespace std;
     char grade = "A";
     string phrase = "Giraffe Academy";
     int age = 50;
-    int age_negtive = -50;
+    int age_negative = -50;
     float e = 25; //float in python C/C++ i just don't get fun fact
     double gpa = 4.5;
     bool isMale = true; // or false bool is bool like python
@@ -97,12 +97,12 @@ using namespace std;
 /*int main4()
 *{
     *string phrase = "Giraffe Academy";
-    *string phrasesub;
-    *phrasesub = phrase.substr(8, 3 );
+    *string phrases;
+    *phrases = phrase.substr(8, 3 );
     *or you can use phrase.length() to see the full text
     *phrase [0] = 'w';
     *cout << phrase.find("Academy", 0) << endl; //endl is \n but high C++ cout make so much stuff easy
-    *cout << phrasesub << endl;
+    *cout << phrases << endl;
     *cout << "Hello" << endl;
 
     return 0;
@@ -152,7 +152,7 @@ using namespace std;
 
 // Getting User Input 
 
-/*int main () {
+/*int main6 () {
     // i love cout and cin make it so easy to get user input compare to printf
     string name; // or double will work or char or string will work
     cout << "Enter your name: ";
@@ -165,6 +165,152 @@ using namespace std;
 }*/
 
 // Arrays
-int main() {
+/*int main7() {
+    
+    int luckyNums[20] = {4, 8, 15, 16, 23, 42};
+
+    luckyNums[0] = 19;
+
+    cout << luckyNums[0] << endl; // or 2
+
+
+    return 0;
+}
+*/
+
+//Functions 
+/*may be the same in C where you use void or int in C++*/
+
+/*void sayhi(string name, int age);
+
+int main8() {
+    
+    sayhi("Mike", 60);
+    
+    return 0;
+}
+
+void sayhi(string name, int age)
+{
+    cout << "Hello " << name << " Your age " << age;
+}
+*/
+
+// Return Statement
+
+/*double cube (double num) {
+    return num * num * num;
+    //return result;
+}
+
+int main9() {
+    
+    //double answer =  cube(5.0); // old 
+    cout << cube(5.0);
+
+    return 0;
+}
+*/
+
+// If Statements basic
+
+/*this is the same in C beside the bool that a C++ only thing*/
+
+/*int main10() {
+   bool is_male = false;
+   bool is_tall = false;
+   
+   if(is_male && is_tall) { // || or is in c++ fun
+    cout << "you are a tall Male" << endl;
+   } else if(is_male && !is_tall) {
+    cout << "you are a short male" << endl;
+   } else if(!is_male && is_tall){
+    cout << "you are tall but not male" << endl; 
+
+   } else {
+    cout << "you are not a male and not tall" << endl;
+   }
+    return 0;
+}
+*/
+ 
+// more If Statements
+
+/*int getMax(int num1, int num2, int num3){
+    int result;
+
+    //if(num1 > num2){ // you can use >= <= == < !=
+      //  result = num1;
+    //} else {
+      //  result = num2;
+    //}
+
+    if(num1 >= num2 && num1 >= num3) { // and you can compare double and character and float and int 
+        result = num1;
+    } else if(num2 >= num1 && num2 >= num3) {
+        result = num2;
+    } else {
+        result = num3;
+    }
+
+    return result;
+} 
+
+int main11(){
+
+    cout << getMax(200, 200, 10) << endl;
+
+    return 0;
+}
+*/
+
+//switch Statements
+
+/*string getDay(int daynum) {
+    string dayName;
+    
+    switch(daynum) {
+        case 0:
+            dayName = "Sunday";
+            break;
+        case 1:
+            dayName = "Monday";
+            break;
+        case 2:
+            dayName = "Tuesday";
+            break;
+        case 3:
+            dayName = "Wednesday";
+            break;
+        case 4:
+            dayName = "Thursday";
+            break;
+        case 5:
+            dayName = "Friday";
+            break;
+        case 6:
+            dayName = "Saturday";
+            break;
+        default:
+            dayName = "Invalid Day Number";
+    }
+    
+    return dayName;
+}
+
+int main12(){
+    
+    cout << getDay(10);
+
+    return 0;
+}
+*/
+
+//While Loops
+
+/*TODO 2:10:46*/
+
+int main(){
+    
     return 0;
 }
