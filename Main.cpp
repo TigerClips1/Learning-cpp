@@ -308,9 +308,214 @@ int main12(){
 
 //While Loops
 
-/*TODO 2:10:46*/
+/*int main13()
+{
 
-int main(){
+    int index = 6;
+    do{
+    
+        cout << index << endl;
+        index++;
+    }while(index <= 5); // same syntax as C
     
     return 0;
 }
+*/
+
+//for Loops
+
+/*int main14() {
+    int nums[] = {1, 2, 5, 7, 3};
+    for(int i = 0; i < 5; i++) {
+        cout << nums[i] << endl;
+    }
+
+    return 0;
+}
+*/
+
+// Exponent Function 
+
+/*finally the new stuff in C++*/
+
+/*int power(int baseNum, int powNum) {
+    int result = 1;
+    for(int i = 0; i < powNum; i++) {
+        result = result * baseNum;
+    }
+    return result;
+}
+int main15() {
+    cout << power(4, 2);
+
+    return 0;
+}
+*/
+
+// 2D Arrays & Nested Loops
+
+/*int main16() {
+    int numberGrid[3][2] = {
+                            {1, 2},
+                            {3, 4},
+                            {4, 5}
+                    };
+    for(int i = 0; i < 3; i++) {
+        for(int j = 0; j < 2; j++) {
+            cout << numberGrid[i][j];
+        }
+        cout << endl;
+    }
+    return 0;
+}
+*/
+
+// Comments
+
+/*int main17() {
+    * Comment
+    *long Comment
+    *see
+    *see
+    *see
+    *see
+    *sorry
+    *
+    *
+    *return 0;
+*}
+*/
+
+// Pointers
+
+/*int main18() {
+    
+    int age = 19;
+    int *pAge = &age;
+    double gpa = 2.7;
+    double *pGpa = &gpa;
+    string name = "Mike";
+    string *pName = &name;
+    
+    //cout << "Age: " << &age << endl;
+    //cout << "Gpa: " << &gpa << endl;
+    //cout << "Name: " << &name << endl;
+    //cout << pAge;
+    //cout << *pAge;
+    cout << &*&gpa;
+
+    return 0;
+}
+*/
+
+/*finally the New stuff in C++*/
+
+// Classes & Objects
+
+/*class Book {
+    public:
+        string title;
+        string author;
+        int pages;
+};
+
+int main20() {
+    Book book1;
+    book1.title = "Harry Potter";
+    book1.author = "JK Rowling";
+    book1.pages = 900;
+    
+    
+    Book book2;
+    book2.title = "Mr. Robot";
+    book2.author = "Sam";
+    book2.pages = 3000;
+
+    cout << book2.title;
+
+    return 0;
+}
+*/
+
+// Constructor Functions
+
+/*class Book {
+    public:
+        string title;
+        string author;
+        int pages;
+        // you can make mutiple Constructor but once again don't fell like showing you an example
+        Book(string aTitle, string aAuthor, int aPages) {
+            title = aTitle;
+            author = aAuthor;
+            pages = aPages;
+            
+        }
+};
+
+int main21() {
+    
+    Book book1("Harry Potter", "JK Rowling", 900 );
+    // you can still modifed it but i don't fell like doing it 
+    Book book2("Mr. Robot", "Sam", 3000);
+
+    cout << book1.title;
+
+    return 0;
+}
+*/
+
+//Object Functions
+
+/*you can also use struct in C++ work the same when you do it in C and const can be use in C++ work the same as it will in C*/
+
+/*writing file and reading file you can also o in C++ work the same in C*/
+
+/*class Student {
+    public:
+        string name;
+        string major;
+        double gpa;
+        Student(string aName, string aMajor, double aGpa) {
+            name = aName;
+            major = aMajor;
+            gpa = aGpa;
+        }
+
+        bool hasHonors() {
+            if(gpa >= 2.0) {
+                return true;
+            } 
+            return false;
+           
+        }
+};
+
+int main22() {
+
+    Student student1("jim", "Business", 2.4);
+    Student student2("Pam", "Art", 3.6);
+
+    cout << student1.hasHonors();
+
+    return 0;
+}
+*/
+
+//Getters & Setters
+
+/*TODO 3:41:43*/
+
+int main() {
+    
+    return 0;
+}
+
+
+
+//Inheritance
+
+/*int main() {
+  return 0;  
+}
+*/
