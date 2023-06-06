@@ -33,5 +33,7 @@
     "**/.vscode",
     "**/.vscode/**"
   ],
-  "C_Cpp_Runner.useAddressSanitizer": false
+  "C_Cpp_Runner.useAddressSanitizer": false,
+  "cmake.sourceDirectory": "/workspaces/Learning-cpp",
+  "C_Cpp.errorSquiggles": "disabled"
 }

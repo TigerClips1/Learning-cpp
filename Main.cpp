@@ -504,18 +504,73 @@ int main22() {
 
 //Getters & Setters
 
-/*TODO 3:41:43*/
+/*class Movie {
+private:
+    string rating;
+
+public:
+    string title;
+    string director;
+
+    Movie(string aTitle, string aDirector, string aRating) {
+        title = aTitle;
+        director = aDirector;
+        setRating(aRating);
+    }
+
+    void setRating(string aRating) {
+        if (aRating == "G" || aRating == "PG" || aRating == "PG-13" || aRating == "R" || aRating == "NR") {
+            rating = aRating;
+        } else {
+            rating = "NR";
+        }
+    }
+
+    string getRating() {
+        return rating;
+    }
+};
 
 int main() {
-    
+    Movie avengers("The Avengers", "Joss Whedon", "PG-13");
+    avengers.setRating("DOG000");
+
+    cout << avengers.getRating() << std::endl;
+
     return 0;
 }
-
-
+*/
 
 //Inheritance
+/*
+*class Chef { //super class
+    *public:
+     *   void makeChicken() {
+      *      cout << "The chef makes chicken" << endl;
+       * }
+        *void makeSalad() {
+         *   cout << "The chef makes salad" << endl;
+        *}
+        *void makeSpecialDish() {
+         *   cout << "The chef make bbq ribs" << endl;
+        *}
+*};
 
-/*int main() {
-  return 0;  
-}
+*class ItalianChef : public Chef{ //sub class
+ *   public:
+  *      void makePasta() {
+   *         cout << "The chef make pasta" << endl;
+    *    }
+     *   void makeSpecialDish() {
+      *      cout << "The chef make chicken afritada" << endl;
+       * }
+*};
+
+*int main() {
+ *   Chef chef;
+  *  chef.makeSpecialDish();
+   * ItalianChef italianChef;
+    *italianChef.makeSpecialDish();
+  *return 0;  
+*}
 */
