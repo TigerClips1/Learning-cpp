@@ -4,4 +4,5 @@ from the FreeCodeCamp,org
 by mike
 bytheway there alot of lib you can include
 
+there already precompile but to comepile the old code you need to g++ -o filename_output codes.cpp
 Thanks For reading
